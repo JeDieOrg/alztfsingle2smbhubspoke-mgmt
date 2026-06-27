@@ -237,21 +237,21 @@ management_group_settings = {
         }
       }
     }
-    connectivitytf-smb-hubspoke-single2 = {
+    connectivity-tf-smb-hubspoke-single2 = {
       policy_assignments = {
         Enable-DDoS-VNET = {
           creation_enabled = false
         }
       }
     }
-    landingzonestf-smb-hubspoke-single2 = {
+    landingzones-tf-smb-hubspoke-single2 = {
       policy_assignments = {
         Enable-DDoS-VNET = {
           creation_enabled = false
         }
       }
     }
-    corptf-smb-hubspoke-single2 = {
+    corp-tf-smb-hubspoke-single2 = {
       policy_assignments = {
         Deploy-Private-DNS-Zones = {
           creation_enabled = false
