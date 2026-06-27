@@ -1,0 +1,80 @@
+"management_groups":
+- "archetypes":
+  - "root_custom"
+  - "amba_root"
+  "display_name": "Azure Landing Zones TF Hub-Spoke SMB Single Region"
+  "exists": true
+  "id": "alz-tf-smb-hubspoke-single2"
+  "parent_id": null
+- "archetypes":
+  - "platform_custom"
+  - "amba_platform"
+  "display_name": "Platform"
+  "exists": false
+  "id": "platform-tf-smb-hubspoke-single2"
+  "parent_id": "alz-tf-smb-hubspoke-single2"
+- "archetypes":
+  - "landing_zones_custom"
+  - "amba_landing_zones"
+  "display_name": "Landing Zones"
+  "exists": false
+  "id": "landingzones-tf-smb-hubspoke-single2"
+  "parent_id": "alz-tf-smb-hubspoke-single2"
+- "archetypes":
+  - "corp_custom"
+  "display_name": "Corp"
+  "exists": false
+  "id": "corp-tf-smb-hubspoke-single2"
+  "parent_id": "landingzones-tf-smb-hubspoke-single2"
+- "archetypes":
+  - "online_custom"
+  "display_name": "Online"
+  "exists": false
+  "id": "online-tf-smb-hubspoke-single2"
+  "parent_id": "landingzones-tf-smb-hubspoke-single2"
+- "archetypes":
+  - "local_custom"
+  "display_name": "Local"
+  "exists": false
+  "id": "local-tf-smb-hubspoke-single2"
+  "parent_id": "landingzones-tf-smb-hubspoke-single2"
+- "archetypes":
+  - "sandbox_custom"
+  "display_name": "Sandbox"
+  "exists": false
+  "id": "sandbox-tf-smb-hubspoke-single2"
+  "parent_id": "alz-tf-smb-hubspoke-single2"
+- "archetypes":
+  - "security_custom"
+  "display_name": "Security"
+  "exists": false
+  "id": "security-tf-smb-hubspoke-single2"
+  "parent_id": "platform-tf-smb-hubspoke-single2"
+- "archetypes":
+  - "management_custom"
+  - "amba_management"
+  "display_name": "Management"
+  "exists": false
+  "id": "management-tf-smb-hubspoke-single2"
+  "parent_id": "platform-tf-smb-hubspoke-single2"
+- "archetypes":
+  - "connectivity_custom"
+  - "amba_connectivity"
+  "display_name": "Connectivity"
+  "exists": false
+  "id": "connectivity-tf-smb-hubspoke-single2"
+  "parent_id": "platform-tf-smb-hubspoke-single2"
+- "archetypes":
+  - "identity_custom"
+  - "amba_identity"
+  "display_name": "Identity"
+  "exists": false
+  "id": "identity-tf-smb-hubspoke-single2"
+  "parent_id": "platform-tf-smb-hubspoke-single2"
+- "archetypes":
+  - "decommissioned_custom"
+  "display_name": "Decommissioned"
+  "exists": false
+  "id": "decommissioned-tf-smb-hubspoke-single2"
+  "parent_id": "alz-tf-smb-hubspoke-single2"
+"name": "alz_custom"
